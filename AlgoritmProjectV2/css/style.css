@@ -33,6 +33,19 @@
     margin-left: 5px;
   }
   
+  .message-box {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffcccc;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+  }
+
   nav a {
     margin: 0 15px;
     text-decoration: none;
